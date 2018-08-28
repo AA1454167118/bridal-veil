@@ -21,10 +21,11 @@
   </el-row>
 
   <el-row type="flex" class="row-bg-s" :gutter="50" >
-    <el-col :span="6"><img class="bg-purple" src="../assets/img/300-11.png" alt=""></el-col>
-    <el-col :span="6"><img class="bg-purple" src="../assets/img/300-12.png" alt=""></el-col>
-    <el-col :span="6"><img class="bg-purple" src="../assets/img/300-13.png" alt=""></el-col>
-    <el-col :span="6"><img class="bg-purple" src="../assets/img/300-14.png" alt=""></el-col>
+    <el-col :span="5"><img class="bg-purple" src="../assets/img/300-11.png" alt=""></el-col>
+    <el-col :span="5"><img class="bg-purple" src="../assets/img/300-12.png" alt=""></el-col>
+    <el-col :span="5"><img class="bg-purple" src="../assets/img/300-13.png" alt=""></el-col>
+    <el-col :span="5"><img class="bg-purple" src="../assets/img/300-14.png" alt=""></el-col>
+    <el-col :span="5"><img class="bg-purple" src="../assets/img/300-14.png" alt=""></el-col>
   </el-row>
 </div>
 </template>
