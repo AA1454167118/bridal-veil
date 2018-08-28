@@ -4,6 +4,8 @@ import home from '@/home/home'
 import brandIntroduction from '@/home/brandIntroduction'
 import portrait from '@/portrait/portrait'
 import wedding from '@/home/wedding'
+import gravida from '@/gravida/gravida'
+
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +31,12 @@ export default new Router({
       path: '/wedding',
       name: 'wedding',
       component: wedding
+    },
+    // 孕妇界面
+    {
+      path: '/gravida',
+      name: 'gravida',
+      component: gravida
     }
   ]
 })
