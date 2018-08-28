@@ -4,6 +4,7 @@ import home from '@/home/home'
 import photos from '@/photos/photos'
 import cameramen from '@/cameramen/cameramen'
 import paymentPage from '@/paymentPage/paymentPage'
+import wedding from '@/home/wedding'
 Vue.use(Router)
 
 export default new Router({
@@ -28,9 +29,15 @@ export default new Router({
     },
     // 支付页面
     {
-      path: 'paymentPage',
+      path: '/paymentPage',
       name: 'paymentPage',
       component: paymentPage
+    },
+    // 婚礼界面
+    {
+      path: '/wedding',
+      name: 'wedding',
+      component: wedding
     }
   ]
 })
