@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import home from '@/home/home'
 import brandIntroduction from '@/home/brandIntroduction'
 import portrait from '@/portrait/portrait'
+import wedding from '@/home/wedding'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +23,12 @@ export default new Router({
       path: '/portrait',
       name: 'portrait',
       component: portrait
+    },
+    // 婚礼界面
+    {
+      path: '/wedding',
+      name: 'wedding',
+      component: wedding
     }
   ]
 })
