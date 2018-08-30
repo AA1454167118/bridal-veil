@@ -1,48 +1,16 @@
 <template>
 <div id="box_fix">
     <div class="g-width">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_201807241651fxj4ke.jpg" alt="上左一">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_201807241651pikegu.jpg" alt="上左二">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_2018072316474yu2e1.jpg" alt="上左二">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_201807231630x5cg93.jpg" alt="上左二">
-                </a>
-            </li>
-             <li>
-                <a href="#">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_201807231405d2rq8d.jpg" alt="下左一">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2018/07/295430_201807231709si1d5k.jpg" alt="下左二">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2017/04/sm_201704191409qlpf8g.JPG" alt="下左三">
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="http://www.4007087688.com/upload/2017/04/sm_201704141747konh6r.JPG" alt="下左四">
-                </a>
-            </li>
-        </ul>
+        <el-row :gutter="5">
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic1.jpg" alt="上左一"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic2.jpg" alt="上左二"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic3.jpg" alt="上左二"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic4.jpg" alt="上左二"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic5.jpg" alt="下左一"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic6.jpg" alt="下左二"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic7.jpg" alt="下左三"></el-col>
+            <el-col :xs="8" :sm="6" :md="6" ><img src="../assets/portrait/pic8.jpg" alt="下左四"></el-col>
+        </el-row>
     </div>
 </div>
 </template>
@@ -56,14 +24,19 @@ export default {
 .g-width {
     margin: 0 auto;
     width: 1220px;
-    background-color:rgb(160, 19, 179)
 }
 img {
     width: 295px;
-    height: 430px
+    height: 430px;
+    border-radius: 15px;
 }
 .g-width >>> ul,li {
     list-style:none;
     float:left;
+}
+/*boot测试*/
+.el-col {
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 </style>
