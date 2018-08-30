@@ -8,7 +8,7 @@
     <el-col :span="5"><img class="bg-purple" src="../assets/img/300-5.png" alt=""></el-col>
   </el-row>
   <h1>
-    <font style="vertical-align: inherit;">
+    <font style="vertical-align: inherit;" >
       婚礼
     </font>
   </h1>
@@ -52,6 +52,7 @@ div{
     font-family: 'Open Sans Light';
     font-size: 40px;
     font-weight: lighter;
+    text-align:center;
   }
   a {
     text-decoration:none;

@@ -4,7 +4,7 @@ import home from '@/home/home'
 import brandIntroduction from '@/home/brandIntroduction'
 import portrait from '@/portrait/portrait'
 import wedding from '@/home/wedding'
-import gravida from '@/gravida/gravida'
+import gravida from '@/home/gravida'
 
 Vue.use(Router)
 
